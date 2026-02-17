@@ -21,7 +21,7 @@
         Step 2) If present use the unlink() command to remove the file
 
     USAGE:
-        ./mymv     fileName
+        ./myrm     fileName
         argv[0]     argv[1]
         
         argc = 2
