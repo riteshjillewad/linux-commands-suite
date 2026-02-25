@@ -36,3 +36,37 @@ The following commands have been implemented using native C system calls.
 | `myuname` | Prints system and kernel information. | `uname()` | System Information |
 | `mywhoami` | Displays the username of the current effective user. | `geteuid()`, `getpwuid()` | User Management |
 
+## 📚 Technical Coverage
+
+This project covers major areas of Linux system programming:
+
+#### 🔹 File I/O Operations
+- `open()`
+- `read()`
+- `write()`
+- `close()`
+- `lseek()`
+
+#### 🔹 Directory & Filesystem Handling
+- `opendir()`
+- `readdir()`
+- `closedir()`
+- `stat()`
+- `mkdir()`
+- `rmdir()`
+
+#### 🔹 File Permissions & Metadata
+- `chmod()`
+- `access()`
+
+#### 🔹 Process & User Management
+- `sleep()`
+- `geteuid()`
+
+#### 🔹 System Information
+- `uname()`
+- `time()`
+
+## 👨‍💻 Author
+**Ritesh Jillewad**  
+
