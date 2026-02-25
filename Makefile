@@ -9,10 +9,10 @@ CFLAGS  = -Wall -Wextra -std=c11 -O2
 SRC_DIR = src
 BIN_DIR = bin
 
-# Automatically detect all .c files inside src
+# This automatically detects all .c files inside src
 SOURCES = $(wildcard $(SRC_DIR)/*.c)
 
-# Convert src/myls.c -> bin/myls
+# Converts src/myls.c -> bin/myls
 TARGETS = $(patsubst $(SRC_DIR)/%.c, $(BIN_DIR)/%, $(SOURCES))
 
 ############################################################
